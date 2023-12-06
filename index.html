@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Label </title>
+</head>
+<body>
+    <h1>INTERESTED IN STUDYING ABROAD? FILL THE FORM AND RECEIVE A QUICK RESPONSE</h1>
+    <label for="inputField">Full Name*</label>
+    <br>
+    <input type="text" id="inputField">
+    <br>
+    <label for="inputfiled">Phone Number*</label>
+    <br>
+    <input type="number" id="inputfiled" pattern="{0-9}{10}" placeholder="0123456789" required>
+    <br>
+    <label for="inputfiled">Email*</label>
+    <br>
+    <input type="email" id="inputfiled">
+    <br>
+    <label for="inputfiled">Countries Preferred *</label>
+    <br>
+    <select>
+        <option value="select countries"> select countries</option>
+        <option value="united states">united states</option>
+        <option value="Australia"> Australia</option>
+        <option value="Canada">Canada</option>
+        <option value="France">France</option>
+    </select>
+    
+    <br>
+    <button onclick="showName()">Submit</button>
+
+    <script src="main.js"></script>
+</body>
